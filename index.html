@@ -35,7 +35,7 @@
         <div class="logocontainer">
           <ul>
             <li class="navoptions"><a href="#aboutus">Who are we?</a></li>
-            <li class="navoptions">Get in touch</li>
+            <li class="navoptions"><a href="#getintouch"> Get in touch</a></li>
             <li class="navoptions">Our socials</li>
           </ul>
         </div>
@@ -65,10 +65,34 @@
         <hr />
       </div>
       <br />
-      <section class="getintouch">
+      <section id="getintouch">
         <h4>Get in touch with us</h4>
+        <br />
+        <form class="getintouchform" type="button">
+          <input type="text" class="verify" placeholder="Last name" />
+          <input type="text" class="verify" placeholder="First name" />
+          <input type="text" class="verify" placeholder="Discord Username" />
+          <input type="text" class="verify" placeholder="Discord ID" />
+          <input type="email" class="verify" placeholder="Email" />
+          <input type="tel" class="verify" placeholder="Number" />
+          <select name="Options" id="option">
+            <option value="" default disabled selected>
+              Reason for Contacting
+            </option>
+            <option value="">Get involved in one of our projects</option>
+            <option value="">Start a project</option>
+            <option value="">Become a discord staff</option>
+            <option value="">General question</option>
+          </select>
+          <br />
+          <button class="formcta" type="button">Submit</button>
+          <h3 class="verification">We will be in touch :D</h3>
+        </form>
+        <br />
       </section>
     </section>
+    <section></section>
+
     <!-- <section id="contact">
       <h4>Get in Touch</h4>
       <hr />
@@ -88,7 +112,7 @@
     <footer>
       <p>Healthy Environment | &copy; 2021</p>
     </footer> -->
-
+    <script src="script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
       integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
