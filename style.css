@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  background: #8edadd !important;
+}
+
+#home {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position-y: 109px;
+  background-position-x: 379px;
+  background-size: 460px;
+}
+/* navbar */
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.navs {
+  display: flex;
+}
+
+.navs ul {
+  list-style: none;
+  margin-left: -80px;
+  margin-top: 46px;
+}
+
+.healthylogo {
+  max-width: 73px;
+  margin: 17px 65px;
+}
+
+.arrangelogo {
+  flex: 1;
+}
+
+img.logo {
+  max-width: 7%;
+  min-width: 7%;
+  margin-top: 27px;
+  margin-left: 92px;
+}
+
+.logocontainer {
+  padding-right: 20px;
+  flex: 1;
+}
+
+li.navoptions {
+  padding-left: 80px;
+  font-family: "Poppins";
+  font-size: 19px;
+  font-weight: 300;
+  text-shadow: -0.5px 1px 2px #0e4d3d;
+  color: white;
+}
+
+.navoptions:hover {
+  text-decoration: overline;
+  transition: ease-in-out 4s;
+}
+
+/* section text */
+
+.headingtext {
+  color: white;
+  text-align: center;
+  font-family: "Poppins";
+  display: flex;
+
+  justify-content: center;
+}
+
+.envirocomics {
+  max-width: 80%;
+  min-width: 80%;
+  margin-top: 30px;
+  margin-left: -37px;
+}
+
+.headingtextwrapper {
+  margin-top: 136px;
+  font-family: "Poppins";
+}
+
+.headingtextwrapper h1 {
+  font-family: "poppins";
+  font-size: 52px;
+  text-shadow: -2px 2px 3px #29a3a3;
+}
+
+.headingtextwrapper h3 {
+  margin-top: 10px;
+  font-size: 34px;
+}
+
+.headingtextwrapper button {
+  background: white;
+}
+
+.headingtextwrapper button {
+  padding: 11px 35px;
+  background: white;
+  border: solid 1px white;
+  box-shadow: -1px 2px #2ca5a7;
+  border-radius: 4px;
+  margin-top: 31px;
+}
+
+/* about us section */
+
+#aboutus {
+  background-color: white;
+  margin-top: 10px;
+  padding-top: 50px;
+  font-family: "Poppins";
+  text-align: center;
+  font-weight: 300;
+  height: 377px;
+  margin-bottom: -30px;
+}
+
+#aboutus p {
+  margin-top: 0;
+  padding: 0px 368px;
+  margin-bottom: 1rem;
+  line-height: 33px;
+}
+.hrline {
+  display: flex;
+  justify-content: center;
+  height: 1px;
+  background: #8edadd;
+  margin: 5px 37%;
+}
+h4 {
+  font-size: 29px;
+  margin-top: 25px;
+}
+
+/* .social1 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #ffdd59;
+  top: 20px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  font-size: 30px;
+  border-radius: 50px;
+  margin-left: 30px;
+}
+.social2 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #575fcf;
+  top: 20px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  font-size: 30px;
+  border-radius: 50px;
+  margin-left: 30px;
+}
+.social3 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #0fbcf9;
+  top: 20px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  font-size: 30px;
+  border-radius: 50px;
+  margin-left: 30px;
+}
+.social4 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #ff3f34;
+  top: 20px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  font-size: 30px;
+  border-radius: 50px;
+  margin-left: 30px;
+
+  .social1:hover,
+.social2:hover,
+.social3:hover,
+.social4:hover {
+  margin-top: 10px;
+  transition: all 0.1s ease-in-out;
+}
+} */
